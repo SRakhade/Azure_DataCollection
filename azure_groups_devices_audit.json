@@ -1,0 +1,219 @@
+[
+    {
+        "group_id": "021de76a-5e10-4ab0-a84f-b6bfa90b8a85",
+        "group_name": "BFsaGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "03c91fdb-623d-4864-ab25-7271bced342e",
+        "group_name": "ADSyncPasswordSet",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "1e14619f-34db-4ce5-bba4-57d407ff5fe9",
+        "group_name": "DnsUpdateProxy",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "1f20ef28-40e3-4d9e-9439-f73178ded451",
+        "group_name": "DHCP Administrators",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "22013259-b95f-4d46-9fec-dc4b81691777",
+        "group_name": "BFNMOs",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "2d4e525a-81ba-457d-83c9-ebd6ff91d3fe",
+        "group_name": "Group for Answers in Viva Engage \u2013 DO NOT DELETE 130776489984",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "31801d57-d04d-4700-91cc-e765ae8da259",
+        "group_name": "ADSyncAdmins",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "33bd0bbd-7cfb-4a32-ac61-af9a121ae77a",
+        "group_name": "ADSyncBrowse",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "468d603a-9d2a-4b65-aafb-782c1713d6d6",
+        "group_name": "WinRMRemoteWMIUsers__",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "5890ec4c-8423-4731-89f8-46afcdac7fe2",
+        "group_name": "BigFix",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "596e0def-40fa-4124-ae1e-3dbe8cafbb9a",
+        "group_name": "DnsAdmins",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "67faacc9-269e-40ca-8122-ad61414262eb",
+        "group_name": "ADSyncOperators",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "6d78a828-10ca-475b-9fb4-bd1ec36883ab",
+        "group_name": "JohnStuff",
+        "total_devices": 2,
+        "devices": [
+            {
+                "device_id": "ad9349fa-d07b-4b7e-8d33-ffeb5264abf8",
+                "device_name": "Win10test2"
+            },
+            {
+                "device_id": "b0103729-10bc-40c2-9ce2-3038207e1a35",
+                "device_name": "John_Gary_W11"
+            }
+        ]
+    },
+    {
+        "group_id": "7011e939-35b6-4da9-8e7e-03f8e149c767",
+        "group_name": "BFMOs",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "728395e7-33e3-4401-9d4c-a3f0d1e9e415",
+        "group_name": "BFwinGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "78625e45-0c13-4c15-8560-37034e81c526",
+        "group_name": "BFLnxGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "819a7855-d886-459a-8d49-ce63685f5b47",
+        "group_name": "BFrdpGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "8c0c021f-599b-4639-a9fb-0553fc28467e",
+        "group_name": "GBLHome",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "9e32b180-61d1-4740-9e0b-a62025acbaf0",
+        "group_name": "AAD DC Administrators",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "aec5722f-ad84-4649-bd9a-270c495fcd25",
+        "group_name": "Swap_Group",
+        "total_devices": 1,
+        "devices": [
+            {
+                "device_id": "b0103729-10bc-40c2-9ce2-3038207e1a35",
+                "device_name": "John_Gary_W11"
+            }
+        ]
+    },
+    {
+        "group_id": "b1d0db45-2337-4517-bb75-d76d0920efcf",
+        "group_name": "DnsUpdateProxy",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "b743c3b5-d912-45de-beaa-a5ec343eedc9",
+        "group_name": "Autopilot Group1",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "bb253648-c003-41b4-b953-4daa050c889c",
+        "group_name": "BFosdGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "bb772f4c-5e43-475e-98dc-b9d3de048305",
+        "group_name": "BFWRGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "c28a8340-2ab8-48d2-89f0-132b06a7f46d",
+        "group_name": "vaultGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "c63a0e3e-c735-49e6-94f8-78b2f99b2990",
+        "group_name": "All Company",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "c9a0f383-3b73-46ca-a70e-244f76a7f44e",
+        "group_name": "JoeS Test",
+        "total_devices": 1,
+        "devices": [
+            {
+                "device_id": "ad9349fa-d07b-4b7e-8d33-ffeb5264abf8",
+                "device_name": "Win10test2"
+            }
+        ]
+    },
+    {
+        "group_id": "cddbba6e-4b0d-4527-870a-5f3f993e1ba3",
+        "group_name": "BFWEBUI",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "d0894597-3635-457a-8e97-bd7305fdff5b",
+        "group_name": "DHCP Users",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "d858e7cf-5c40-455b-a69c-2dee268da0f4",
+        "group_name": "AzureOperators",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "e2684fcc-2e84-4213-b04b-6b3c02d72bef",
+        "group_name": "BFpatchGrp",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "ec55e081-7233-4999-ae7e-d24b508322a6",
+        "group_name": "OktaCons",
+        "total_devices": 0,
+        "devices": []
+    },
+    {
+        "group_id": "fc108548-b97d-4c63-b1ae-7dedd2f4dba6",
+        "group_name": "DnsAdmins",
+        "total_devices": 0,
+        "devices": []
+    }
+]
