@@ -190,10 +190,10 @@ def clean_BigFix_prior_actions(bf_conn,to_do):
         bf_conn = besapi.besapi.BESConnection(BigFixOperator, BigFixPassword, BigFixRootURL)
     logger.info ("=== Check the to_do list for any computer IDs that might have active actions already and remove them from the to_do list ===")
     logger.debug (to_do)
-    keep= '("' + '", "'.join(to_do.keys()) + '")'
+    keep= '("' + '"; "'.join(to_do.keys()) + '")'
     logger.info (f"keep actions with these IDs in their titles: {keep}")
     if AutoDelete:
-        session_relevance = f"""("[" & it & "]") of concatenation ", " of (it as string) of ids of bes actions whose (name of issuer of it = "{BigFixOperator}" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is not contained by {keep})"""
+        session_relevance = f"""("[" & it & "]") of concatenation ", " of (it as string) of ids of bes actions whose (name of issuer of it = "{BigFixOperator}" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is not contained by set of {keep})"""
         logger.debug(f"session_relevance {session_relevance}")
         rd = ast.literal_eval(bf_conn.session_relevance_string(session_relevance))
         logger.debug (rd)
@@ -209,7 +209,7 @@ def clean_BigFix_prior_actions(bf_conn,to_do):
     else:
         if AutoStop:
             logger.info ("   Finding actions to stop")
-            session_relevance = f"""("[" & it & "]") of concatenation ", " of (it as string) of ids of bes actions whose (name of issuer of it = "{BigFixOperator}" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is not contained by {keep}) AND state of it = "Open" )"""
+            session_relevance = f"""("[" & it & "]") of concatenation ", " of (it as string) of ids of bes actions whose (name of issuer of it = "{BigFixOperator}" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is not contained by set of {keep}) AND state of it = "Open" )"""
             logger.debug(f"session_relevance {session_relevance}")
             rd = ast.literal_eval(bf_conn.session_relevance_string(session_relevance))
             logger.debug (rd)
@@ -225,9 +225,9 @@ def clean_BigFix_prior_actions(bf_conn,to_do):
 
 # === make sure we are not recreating existing open actions (we do recreate stopped or expired actions if they are in the to_do)===
 def clean_keepers_from_to_do(to_do):
-    keep= '("' + '", "'.join(to_do.keys()) + '")'
+    keep= '("' + '"; "'.join(to_do.keys()) + '")'
     logger.debug (f"keep = {keep}")
-    session_relevance = f"""("[" & it & "]") of concatenation ", " of ((it as trimmed string) of following text of last "{ActionTitlePrefix} for " of it as string) of names of bes actions whose (name of issuer of it = "{BigFixOperator}" AND state of it = "Open" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is contained by {keep})"""
+    session_relevance = f"""("[" & it & "]") of concatenation ", " of ((it as trimmed string) of following text of last "{ActionTitlePrefix} for " of it as string) of names of bes actions whose (name of issuer of it = "{BigFixOperator}" AND state of it = "Open" AND name of it starts with "{ActionTitlePrefix} for " AND following text of last "{ActionTitlePrefix} for " of name of it is contained by set of {keep})"""
     logger.debug(f"session_relevance {session_relevance}")
     rd = ast.literal_eval(bf_conn.session_relevance_string(session_relevance))
     logger.debug (f"keepers = {rd}")
