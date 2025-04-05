@@ -1,0 +1,36 @@
+{
+    "LOGLEVEL": "INFO",
+	"CLIENT_ID": "abcdef12-3456-7890-abcd-ef1234567890",
+    "CLIENT_SECRET": "KJHG1234(*&asdf(*&^%asdffasdf123123asdf",
+    "TENANT_ID": "abcdef12-3456-7890-abcd-ef1234567890",
+    "INTERESTING_AZURE_GROUPS": [
+        {
+            "id": "abcdef12-3456-7890-abcd-ef1234567890"
+        },
+        {
+            "id": "abcdef12-3456-7890-abcd-ef1234567890"
+        },
+        {
+            "id": "abcdef12-3456-7890-abcd-ef1234567890"
+        },
+        {
+            "id": "abcdef12-3456-7890-abcd-ef1234567890"
+        }
+    ],
+    "GRANT_TYPE": "client_credentials",
+    "SCOPE": "https://graph.microsoft.com/.default",
+    "BigFixOperator": "BigFixNMO",
+    "BigFixPassword": "P@ssw0rd!",
+	"BigFixRootServerName": "server.bigfix.com",
+    "BigFixRootURL": "https://server.bigfix.com:52311",
+    "BigFixDeviceSettingName": "AzureDeviceID",
+    "BigFixGroupSettingName": "AzureGroupIDs",
+    "BigFixOwnerIDSettingName": "AzureOwnerID",
+    "BigFixOwnerGroupSettingName": "AzureOwnerGroupIds",
+    "BigFixOwnerNameSettingName": "AzureOwnerName",
+    "BigFixOwnerUserPrincipalNameSettingName": "AzureOwnerUserPrincipalName",
+    "ActionTitlePrefix": "AzureGroupSettingAutomation",
+    "action_batchsize": "100",
+    "AutoDelete": true,
+    "AutoStop": true
+}
