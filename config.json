@@ -3,6 +3,7 @@
 	"CLIENT_ID": "abcdef12-3456-7890-abcd-ef1234567890",
     "CLIENT_SECRET": "KJHG1234(*&asdf(*&^%asdffasdf123123asdf",
     "TENANT_ID": "abcdef12-3456-7890-abcd-ef1234567890",
+	"USE_BIGFIX_FOR_INTERESTING_GROUPS": true,
     "INTERESTING_AZURE_GROUPS": [
         {
             "id": "abcdef12-3456-7890-abcd-ef1234567890"
@@ -23,6 +24,7 @@
     "BigFixPassword": "P@ssw0rd!",
 	"BigFixRootServerName": "server.bigfix.com",
     "BigFixRootURL": "https://server.bigfix.com:52311",
+	"BigFixAutoGroupPrefix": "AzureGroup - ",
     "BigFixDeviceSettingName": "AzureDeviceID",
     "BigFixGroupSettingName": "AzureGroupIDs",
     "BigFixOwnerIDSettingName": "AzureOwnerID",
